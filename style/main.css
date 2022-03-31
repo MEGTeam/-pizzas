@@ -7,3 +7,9 @@ and open the template in the editor.
     Created on : Mar 30, 2022, 11:54:50 PM
     Author     : E M T
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
