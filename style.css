@@ -1,0 +1,50 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Amatic SC', cursive;
+    color: blanchedalmond;
+}
+
+.pizza {
+    background-image: url(images/pizza1.jpg);
+    background-repeat: no-repeat;
+    height: 650px;
+    opacity: 0.9;
+    filter: brightness(50%);
+}
+
+.heading1{
+    margin-left: 300px;
+    transform: translateY(-104%);
+    color: white;  
+    font-size: 96px;        
+}
+
+.heading2 {
+    color: white;  
+    font-size: 96px;
+    margin-left: 200px;
+    transform: translateY(-110%);
+}
+
+.menu {
+    background-color: black;
+    padding: 20px 30px;
+    font-size: 30px;
+    margin-left: 250px;
+    transform: translateY(-180%);
+}
+
+.menu:hover{
+    background-color: rgb(197, 195, 193);
+    color: black;
+    cursor: pointer;
+}
+
+.opentime{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 26px;
+    transform: translate(-380%, -20%);
+}
