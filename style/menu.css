@@ -116,3 +116,117 @@ span.hot {
     background-color: #f44336;
     color: white;
 }
+
+/* start section C-o-n-t-a-c-t */
+.C-o-n-t-a-c-t{
+    background-color: #607d8b;
+}
+.Contact{
+    width: 100%;
+    font-family: "Amatic SC", sans-serif;
+    padding-top: 95px;
+    padding-bottom: 70px;
+    color: #fff;
+}
+.text-1{
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    font-size: 64px;
+    margin: 15px 0 70px 0;
+}
+.text-2{
+    padding: 0 8% 0 8%;
+    margin: 40px 0 40px 0;
+    font-size: 24px;
+}
+.text-3{
+    margin: 0 .5% 0 8%;
+    padding: 0 8px 0 8px;
+    float: left;
+    background-color: #000;
+    font-size: 24px;
+}
+.text-4{
+    width: 84%;
+    padding: 0 8% 0 8%;
+    margin: 40px 0 40px 0;
+    font-size: 24px;
+}
+.text-5{
+    padding: 0 0% 0 8%;
+    float: left;
+    font-size: 40px;
+}
+.text-6{
+    padding: 0 8% 0 8%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.input-1{
+    width: 84%;
+    margin: 0 8% 0 8%;
+    padding: 1.5% 0 1.5% 1%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: "Amatic SC", sans-serif;
+}
+.input-2{
+    width: 84%;
+    margin: 0 8% 0 8%;
+    padding: 1.5% 0 1.5% 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: "Amatic SC", sans-serif;
+}
+.input-3{
+    width: 84%;
+    margin: 0 8% 0 8%;
+    padding: 1.5% 0 1.5% 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: "Amatic SC", sans-serif;
+}
+.input-4{
+    width: 84%;
+    margin: 0 8% 0 8%;
+    padding: 1.5% 0 1.5% 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: "Amatic SC", sans-serif;
+}
+.button-1{
+    width: 84%;
+    margin: 0 8% 0 8%;
+    padding: 1% 0 1% 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: "Amatic SC", sans-serif;
+}
+/* end section C-o-n-t-a-c-t */
+
+/* start @media section C-o-n-t-a-c-t */
+ /* mopil */
+
+@media (max-width: 767px){
+    .input-1{
+        padding: 6% 0 6% 1%;
+    }
+    .input-2{
+        padding: 6% 0 6% 1%;
+    }
+    .input-3{
+        padding: 6% 0 6% 1%;
+    }
+    .input-4{
+        padding: 6% 0 6% 1%;
+    }
+}
+/* end @media section C-o-n-t-a-c-t */
+
