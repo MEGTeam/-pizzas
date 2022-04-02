@@ -12,14 +12,108 @@ and open the template in the editor.
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Amatic SC", cursive;
 }
-body > section{
+/* Star About */
+.main-about {
+    background-color: #8b5f5b;
+    color: #dbdbdb;
+    width: 100%;
+    height: auto;
+    font-family: "Amatic SC", cursive;
+}
+.about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.about .tit {
+    margin: 55px auto 40px auto;
+    font-size: 35px;
+    color: #ededed;
+}
+.disc {
+    line-height: 32px;
+    font-size: 15px;
+    font-weight: normal;
+    width: 100%;
+}
+.theme {
+    width: 33%;
+    margin-top: 35px;
+    line-height: 50px;
+    font-size: 14px;
+    width: 325px;
+}
+.theme::before {
+    content: "THE CHEF? ";
+    color: #ededed;
+    font-weight: bold;
+    font-size: 16px;
+}
+.chef {
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url(../images/chef.jpg);
+    background-position: center;
+    background-size: 155px;
+    margin-top: 35px;
+    margin-right: 12px;
+}
+.kit {
+    width: 100%;
+    height: 700px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.tb::first-line {
+    font-size: 25px;
+    color: #ededed;
+}
+.tb {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.tb span {
+    font-size: 15px;
+    margin-right: 20%;
+    width: 25%;
+    display: inline-block;
+    margin-top: 30px;
+}
+.big-img {
+    width: 100%;
+    filter: grayscale(80%);
+    margin-top: 50px;
+    position: relative;
+    top: 5px;
+}
+/* About End */
+@media (max-width: 1026px) {
+    /* Start About */
+    .about {
+        width: 90%;
+    }
+    .kit {
+        height: auto;
+    }
+    /* End About */
+}
+
+body > section {
     overflow-x: hidden;
 }
 
 /* first page */
 
-.pizza{
+.pizza {
     position: relative;
     background-color: transparent;
     min-height: 90vh;
@@ -33,21 +127,21 @@ body > section{
     top: 0;
     z-index: -1;
     left: 0;
-    background-image: url("../images/onepage_restaurant.jpg");
+    background-image: url("../images/pizza.jpg");
     background-size: cover;
     min-height: 90vh;
     opacity: 0.9;
     filter: brightness(50%);
 }
 
-.heading1{
+.heading1 {
     text-align: center;
-    color: white;  
-    font-size: 96px;        
+    color: white;
+    font-size: 96px;
 }
 
 .heading2 {
-    color: white;  
+    color: white;
     font-size: 96px;
 }
 
@@ -56,14 +150,16 @@ body > section{
     font-size: 30px;
     margin: 20px auto auto;
     display: block;
+    background-color: black;
+    color: white;
 }
 
-.menu1:hover{
+.menu1:hover {
     background-color: rgb(197, 195, 193);
     cursor: pointer;
 }
 
-.opentime{
+.opentime {
     background-color: black;
     color: white;
     padding: 10px;
@@ -75,19 +171,19 @@ body > section{
 
 /* end first page */
 
-@media (max-width: 767px){
-.heading1, 
-.heading2{
-    font-size: 36px;
-    margin-bottom: 5px;
-}
-.menu1{
-    font-size: 20px;
-    padding: 10px;
-    width: fit-content;
-    margin-top: 80px;
-}
-.opentime{
-    font-size: 18px;
-}
+@media (max-width: 767px) {
+    .heading1,
+    .heading2 {
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+    .menu1 {
+        font-size: 20px;
+        padding: 10px;
+        width: fit-content;
+        margin-top: 80px;
+    }
+    .opentime {
+        font-size: 18px;
+    }
 }
