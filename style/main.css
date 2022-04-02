@@ -16,8 +16,8 @@ and open the template in the editor.
 
 /* first page */
 
-/* .pizza {
-    background-image: url(images/pizza1.jpg);
+.pizza{
+    background-image: url(images/pizza.jpg);
     background-repeat: no-repeat;
     height: 650px;
     opacity: 0.9;
@@ -38,7 +38,7 @@ and open the template in the editor.
     transform: translateY(-110%);
 }
 
-.menu {
+.menu1 {
     background-color: black;
     padding: 20px 30px;
     font-size: 30px;
@@ -46,7 +46,7 @@ and open the template in the editor.
     transform: translateY(-180%);
 }
 
-.menu:hover{
+.menu1:hover{
     background-color: rgb(197, 195, 193);
     color: black;
     cursor: pointer;
@@ -61,4 +61,3 @@ and open the template in the editor.
 }
 
 /* end first page */
-*/
