@@ -17,7 +17,7 @@ and open the template in the editor.
 /* first page */
 
 .pizza{
-    background-image: url(images/pizza.jpg);
+    background-image: url('images/pizza.jpg');
     background-repeat: no-repeat;
     height: 650px;
     opacity: 0.9;
