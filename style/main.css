@@ -16,48 +16,66 @@ and open the template in the editor.
 
 /* first page */
 
-.pizza {
-    background-image: url(images/pizza1.jpg);
-    background-repeat: no-repeat;
-    height: 650px;
-    opacity: 0.9;
+#pizzaimg{
+    background-size: cover;
+    height: 625px;
+    width: 1348px;
     filter: brightness(50%);
 }
 
-.heading1{
-    margin-left: 300px;
-    transform: translateY(-104%);
-    color: white;  
-    font-size: 96px;        
+.div1 {
+    position:relative;
+    font-family: 'Amatic SC';
+    transform: translate(20% , -150%);
+    position: absolute;
 }
 
-.heading2 {
-    color: white;  
-    font-size: 96px;
-    margin-left: 200px;
-    transform: translateY(-110%);
+.heading1 {
+    transform: translate(100%, 90%);
+    font-size: 100px;
+    color: blanchedalmond;
+
 }
 
-.menu {
+.heading2{
+    transform: translate(83%, 82%);
+    font-size: 100px;
+    color: blanchedalmond;
+}
+
+.see-menu{
+    transform: translate(100%, 150%);
+    border: none;
     background-color: black;
     padding: 20px 30px;
     font-size: 30px;
     margin-left: 250px;
-    transform: translateY(-180%);
+    color: blanchedalmond;
+    font-family: 'Amatic SC';
 }
 
-.menu:hover{
+.see-menu:hover{
     background-color: rgb(197, 195, 193);
     color: black;
     cursor: pointer;
 }
 
-.opentime{
+.button-open{
+    transform: translate(-110%, 226%);
+    border: none;
     background-color: black;
-    color: white;
-    padding: 10px;
-    font-size: 26px;
-    transform: translate(-380%, -20%);
+    padding: 20px 30px;
+    font-size: 30px;
+    margin-left: 250px;
+    color: blanchedalmond;
+    font-family: 'Amatic SC';
+}
+
+.button-open:hover{
+    background-color: rgb(197, 195, 193);
+    color: black;
+    cursor: pointer;
 }
 
 /* end first page */
+
