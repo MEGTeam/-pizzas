@@ -17,40 +17,48 @@ and open the template in the editor.
 
 /* first page */
 
-#pizzaimg{
+.pizza-img{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/pizza.jpg);
     background-size: cover;
-    height: 625px;
-    width: 1348px;
     filter: brightness(50%);
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
 }
 
 .div1 {
     position:relative;
     font-family: 'Amatic SC';
-    transform: translate(20% , -150%);
-    position: absolute;
+    color: blue;
+    display: flex;
+    flex-direction: column;
 }
 
-.heading1 {
-    transform: translate(100%, 90%);
-    font-size: 100px;
+.page-title{
+    font-size: 68px;
     color: blanchedalmond;
+}
 
+.heading1{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
 }
 
 .heading2{
-    transform: translate(83%, 82%);
-    font-size: 100px;
-    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
 }
 
 .see-menu{
-    transform: translate(100%, 150%);
+    margin-left: 42%;
+    margin-top: 2%;
     border: none;
     background-color: black;
     padding: 20px 30px;
     font-size: 30px;
-    margin-left: 250px;
     color: blanchedalmond;
     font-family: 'Amatic SC';
 }
@@ -62,12 +70,12 @@ and open the template in the editor.
 }
 
 .button-open{
-    transform: translate(-110%, 226%);
+    margin-top: 6%;
+    margin-left: 3%;
     border: none;
     background-color: black;
     padding: 20px 30px;
-    font-size: 30px;
-    margin-left: 250px;
+    font-size: 26px;
     color: blanchedalmond;
     font-family: 'Amatic SC';
 }
@@ -78,10 +86,65 @@ and open the template in the editor.
     cursor: pointer;
 }
 
-/* end first page */
+/* responsive */
 
+@media (max-width: 990px){
+    .page-title{
+        font-size: 48px;
+        margin-top: 7%;
+    }
+    .see-menu{
+        margin-top: 4%;
+        margin-left: 38%;
+    }
+    .button-open{
+    margin-top: 12%;
+    }
+}
 
+@media (max-width: 700px){
+    .page-title{
+        font-size: 48px;
+        margin-top: 7%;
+    }
+    .see-menu{
+        margin-top: 4%;
+        margin-left: 34%;
+    }
+    .button-open{
+    margin-top: 16%;
+    }
+}
 
+@media (max-width: 550px){
+    .page-title{
+        font-size: 48px;
+        margin-top: 7%;
+    }
+    .see-menu{
+        margin-top: 4%;
+        margin-left: 28%;
+    }
+    .button-open{
+    margin-top: 26%;
+    }
+}
+
+@media (max-width: 360px){
+    .page-title{
+        font-size: 48px;
+        margin-top: 7%;
+    }
+    .see-menu{
+        margin-top: 4%;
+        margin-left: 20%;
+    }
+    .button-open{
+    margin-top: 33%;
+    }
+}
+
+/* end */
 
 
 /* Star About */
