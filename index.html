@@ -22,12 +22,75 @@ and open the template in the editor.
     <!-- Google font Amatic SC -->
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
     <title>Pizzas</title>
+    <style>
+        .navbarr{
+            list-style: none;
+            margin: auto;
+            align-items: top;
+            background-color: rgba(0, 0, 0, 0.681);
+        }
+        nav{
+            background :rgba(0,0,0,0,6);  
+            margin-top: 0px;
+            margin-bottom: 0px;          
+        }
+        .navbarr li{
+            display: inline-block;
+        }
+        .navbarr a{
+            line-height: 50px;
+            display: block;
+            color: #fff;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding: 0 15px;
+            text-decoration: none;
+            font-size: 25px;
+        }
+        .navbarr li :hover{
+            background-color: rgb(195, 195, 195);
+        }
+        .ggg{
+            position: fixed;
+            width: 100%;
+            z-index: 200;
+        }
+        .ggg :hover{
+            background-color: black;
+        }
+        .navbarr a:hover{
+            color: black;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .ggg{
+            margin-top: 0px;
+        }
+        @media only screen and (max-width: 700px) {
+                .ggg{
+                    display: none;
+                }
+            }
+    </style>
 </head>
 
 <body>
+    <div class="ggg">
+        <nav>
+        <ul class="navbarr">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#content">CONTACT</a></li>
+        </ul>
+        
+        </nav>
+    </div>
+    <div class="pizza">
     <!--- first page-->
     <section>
-        <div class="pizza">
             <div class="pizza_b"></div>
             <div class="heading1">
                 <h1 class="heading1">THIN</h1>
@@ -36,12 +99,10 @@ and open the template in the editor.
                 <button class="opentime">OPEN FROM 10AM TO 12AM</button>
             </div>
         </div>
-
     </section>
     <!--- end-->
-
     <!-- Menu Start -->
-    <section class="menu">
+    <section class="menu" id="menu">
         <header>The Menu</header>
         <div class="menuContent">
             <div class="menuH">
@@ -152,7 +213,7 @@ and open the template in the editor.
     </section>
     <!-- Menu END -->
     <!-- Start About -->
-    <div class="main-about">
+    <div class="main-about" id="about">
         <div class="about">
             <span class="tit">about</span>
             <div class="disc">
@@ -190,8 +251,8 @@ and open the template in the editor.
     <!-- Menu END -->
 
     <!-- start section C-o-n-t-a-c-t -->
-    <section class="C-o-n-t-a-c-t">
-        <div class="Contact">
+    <section class="C-o-n-t-a-c-t" id="C-o-n-t-a-c-t">
+        <div class="Contact" id="content">
             <h1 class="text-1">Contact</h1>
             <p class="text-2">Find us at some address at some place or call us at 05050515-122330</p>
             <span class="text-3">FYI!</span>
